@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+
+    <package name="demo" extends="struts-default">
+      <action name="login" class="demo.web.Login">
+         <result name="success">scccess.jsp</result>
+         <result name="error">errors.jsp</result>
+         <result name="none">login.jsp</result>
+     </action>
+
+    </package>
+</struts>
+	
